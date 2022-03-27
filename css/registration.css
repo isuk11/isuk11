@@ -1,0 +1,92 @@
+body {
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #FFFFFF url(../img/public.jpg) no-repeat fixed center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+}
+
+
+
+.breadcrumb > li + li:before {
+    color: #707070;
+    content: ">> ";
+    padding: 0 5px;
+}
+
+.left-inner-addon {
+    position: relative;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.left-inner-addon input {
+    padding-left: 30px;
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.navbar.transparent{
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.40);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+.transparent-background {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    padding: 5px 10px 5px 10px;
+    background-color: rgba(255,255,255,0.7);
+    /*opacity:0.7;
+    filter:alpha(opacity=70);*/
+}
+
+/******
+*
+* This needs to be here because of the error label for sob is skewed to the right
+*
+****/
+#registration-form .form-group #home_reg_dob_day span.help-block{
+    margin-left: -170px;
+}
+
+.btn {
+    white-space: normal;
+}
+
+input.transparent-input:focus {
+    border-color: #FFFFFF;
+}
+
+.transparent-input {
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 2px solid rgb(254, 254, 254);
+    color: #ffffff;
+}
+
+.form-control::-webkit-input-placeholder { color: white; }
+.form-control:-moz-placeholder { color: white;  opacity:  1;}
+.form-control::-moz-placeholder { color: white;  opacity:  1;}
+.form-control:-ms-input-placeholder { color: white; }
+
+.help-block{
+    color: #ffff00;
+}
+
+
+html.no-js body div.container div.row div.col-xs-12 form#registration-form.form-horizontal div.row div.col-xs-12.col-sm-3 label.text-warning
+
+.has-error{
+    color: #ffff00;
+}
